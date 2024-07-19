@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #app {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  #menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  #notes-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .note {
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+  
+  .note.archived {
+    background-color: #e0e0e0;
+  }
+  
+  .note.trashed {
+    background-color: #ffcccc;
+  }
+  
+  .log {
+    text-align: center;
+  }
